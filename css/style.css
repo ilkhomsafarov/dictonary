@@ -1,0 +1,61 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.animals{
+    max-width: 1440px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.animal_eng{
+    width: 600px;
+    height: 620px;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.animal_eng > img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-bottom: 1px solid;
+}
+
+.animal_eng > p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.animal_eng > strong{
+    font-size: 18px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+form > .input{
+    width: 350px;
+    height: 35px;
+    margin-bottom: 10px;
+    text-indent: 10px;
+    font-size: 20px;
+
+}
